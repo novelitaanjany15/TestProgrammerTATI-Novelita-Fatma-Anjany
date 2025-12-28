@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "d8fa173d-61fd-4a26-8c4c-1a34b165dad5",
+		"_postman_id": "8dd5abff-9962-4421-bf9d-207d814d497a",
 		"name": "data_provinsi",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "42875890"
 	},
 	"item": [
 		{
-			"name": "Tambah Data (POST)",
+			"name": "Sync Data(GET)",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -15,7 +15,7 @@
 			"response": []
 		},
 		{
-			"name": "Tambah Data (POST)",
+			"name": "Lihat semua data (GET)",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -23,31 +23,7 @@
 			"response": []
 		},
 		{
-			"name": "Tambah Data (POST)",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Tambah Data (POST)",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Lihat Semua Data (GET)",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Lihat data berdasarkan ID",
+			"name": "Menghapus Data (DELETE)",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -63,7 +39,15 @@
 			"response": []
 		},
 		{
-			"name": "Hapus Data (DELETE)",
+			"name": "Melihat data by id(GET)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Menambah data (POST)",
 			"request": {
 				"method": "GET",
 				"header": []
